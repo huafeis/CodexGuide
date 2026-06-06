@@ -35,7 +35,7 @@ features:
     details: 说明如何用手机端发起 Codex 任务，并把进展接回桌面端工作流。
   - title: 真实案例库
     icon: lightbulb
-    details: 收录 14 个可迁移案例，覆盖内容生产、知识库、临床文献综述、浏览器、CI 与远程排障。
+    details: 收录 16 个可迁移案例，覆盖内容生产、知识库、移动协同、个性化工作台、临床文献综述、浏览器、CI 与远程排障。
   - title: 团队沉淀
     icon: people
     details: 提供 AGENTS.md、任务模板、复盘结构和团队推广方法。
@@ -50,7 +50,7 @@ features:
 
 ## 这份教程适合谁
 
-CodexGuide 不是一份命令速查表，而是一份围绕真实工作流组织的实践指南。它帮助不同背景的人回答三个问题：我该从哪个入口开始，怎样把需求交给 Codex，怎样确认它交付的是可靠结果。
+CodexGuide 是一份围绕真实工作流组织的实践指南，重点不止于命令速查。它帮助不同背景的人回答三个问题：我该从哪个入口开始，怎样把需求交给 Codex，怎样确认它交付的是可靠结果。
 
 <div class="home-metric-grid">
   <a class="home-metric-card" href="/guide/00-overview.html" data-tone="teal">
@@ -58,8 +58,8 @@ CodexGuide 不是一份命令速查表，而是一份围绕真实工作流组织
     <span>从桌面 App、CLI、IDE 到 Cloud，按阶段建立完整使用习惯。</span>
   </a>
   <a class="home-metric-card" href="/recipes/" data-tone="blue">
-    <strong>14 个实战案例</strong>
-    <span>把 Codex 放进 PPT、Draw.io、Playwright、Obsidian、临床文献综述、飞书、CI 等真实场景。</span>
+    <strong>16 个实战案例</strong>
+    <span>把 Codex 放进 PPT、Draw.io、Playwright、Obsidian、临床文献综述、Hatch Pet、手机协同、飞书、CI 等真实场景。</span>
   </a>
   <a class="home-metric-card" href="/configuration/" data-tone="amber">
     <strong>4 类配置主题</strong>
@@ -123,7 +123,7 @@ Codex 的能力会出现在 App、CLI、Cloud、IDE、ChatGPT 和集成生态里
 
 ## 把一次任务做成闭环
 
-好用 Codex 的关键不是把 prompt 写得花哨，而是让它始终知道目标、范围、约束、验证方式和交付格式。教程会反复训练这一套闭环。
+好用 Codex 的关键在于让它始终知道目标、范围、约束、验证方式和交付格式，prompt 不需要写得花哨。教程会反复训练这一套闭环。
 
 <div class="home-loop-grid">
   <a href="/practice/task-design.html" class="home-loop-item" data-tone="teal">
@@ -156,7 +156,7 @@ Codex 的能力会出现在 App、CLI、Cloud、IDE、ChatGPT 和集成生态里
 
 ## 精选实战场景
 
-案例库不是展示清单，而是可改写的任务样本。你可以直接换成自己的项目、工具、账号和验证方式。
+案例库是一组可改写的任务样本，重点是帮你迁移到自己的项目、工具、账号和验证方式。
 
 <div class="home-case-grid">
   <a class="home-case-card" href="/recipes/ppt-skill-walkthrough.html">
@@ -174,6 +174,14 @@ Codex 的能力会出现在 App、CLI、Cloud、IDE、ChatGPT 和集成生态里
   <a class="home-case-card" href="/recipes/clinical-literature-review.html">
     <strong>整理临床文献证据表</strong>
     <span>把医学问题拆成 PICO、证据来源、局限性和安全边界。</span>
+  </a>
+  <a class="home-case-card" href="/recipes/hatch-pet-photo.html">
+    <strong>生成专属桌面宠物</strong>
+    <span>用一张照片生成 Hatch Pet 动画，并放进 Codex 工作台。</span>
+  </a>
+  <a class="home-case-card" href="/recipes/android-remote-control.html">
+    <strong>安卓手机远程操控</strong>
+    <span>扫码连接手机端 ChatGPT App，跟进和管理桌面 Codex 任务。</span>
   </a>
   <a class="home-case-card" href="/recipes/github-actions-ci-fix.html">
     <strong>CI 失败自动修复</strong>

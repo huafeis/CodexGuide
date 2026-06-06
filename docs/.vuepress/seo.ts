@@ -82,9 +82,13 @@ export const pageDescriptions: Record<string, string> = {
   "/practice/team-playbook.html":
     "Codex 团队实践指南，整理 AGENTS.md、PR、排障、知识库、任务模板和团队推广的协作方法。",
   "/recipes/":
-    "Codex 实战案例库，收录 PPT、Draw.io、Playwright、Obsidian、飞书、Figma、Notion、CI 和远程排障案例。",
+    "Codex 实战案例库，收录 PPT、Draw.io、Playwright、Obsidian、临床文献综述、Hatch Pet、安卓手机远程操控、飞书、Figma、Notion、CI 和远程排障案例。",
+  "/recipes/android-remote-control.html":
+    "Codex 连接安卓手机教程，说明如何通过扫码将手机端 ChatGPT App 与电脑端 Codex 配对，实现移动端远程操控。",
   "/recipes/chrome-browser-plugin.html":
     "Codex Chrome 浏览器插件案例，说明如何让 AI 控制浏览器页面、执行网页任务并保持安全边界。",
+  "/recipes/clinical-literature-review.html":
+    "Codex 临床文献综述案例，说明如何把医学科研问题整理成 PICO、证据表、证据来源、局限性和医疗安全边界。",
   "/recipes/credits.html":
     "CodexGuide 参考来源与致谢，整理案例中涉及的第三方工具、官方文档、仓库链接和内容来源，便于追溯资料。",
   "/recipes/dkfile-deploy-codex.html":
@@ -97,6 +101,8 @@ export const pageDescriptions: Record<string, string> = {
     "Codex 与 Figma MCP 案例，说明如何读取设计稿、理解布局与组件，并辅助前端实现或文档整理。",
   "/recipes/github-actions-ci-fix.html":
     "Codex 与 GitHub Actions 案例，说明 CI 失败后如何读取日志、定位问题、自动修复并生成 PR。",
+  "/recipes/hatch-pet-photo.html":
+    "Codex Hatch Pet 功能案例，说明如何用一张照片生成专属宠物动画，适合想要个性化编程伴侣的用户。",
   "/recipes/hyperframes-animation.html":
     "Codex 与 HyperFrames 案例，说明如何用代码生成动画视频，组织素材、脚本、渲染和结果验证。",
   "/recipes/llm-wiki-codex.html":

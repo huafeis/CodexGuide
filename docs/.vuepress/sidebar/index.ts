@@ -80,6 +80,8 @@ export default sidebar({
         { text: "12 Codex × Chrome：让 AI 直接控制浏览器", link: "chrome-browser-plugin.md" },
         { text: "13 Codex × GitHub Actions：CI 失败自动修复", link: "github-actions-ci-fix.md" },
         { text: "14 Codex × 临床文献综述：把医学问题整理成证据表", link: "clinical-literature-review.md" },
+        { text: "15 Codex × Hatch Pet：用一张照片生成专属宠物", link: "hatch-pet-photo.md" },
+        { text: "16 Codex × 安卓手机：扫码连接，远程操控", link: "android-remote-control.md" },
         { text: "参考来源与致谢", link: "credits.md" },
       ],
     },
